@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { MenuItems } from './MenuItems';
+import { Button } from '../Button'
 import './Navbar.css';
+
 
 class Navbar extends React.Component {
     
@@ -28,6 +30,7 @@ class Navbar extends React.Component {
                         )
                     })}
                 </ul>
+                <Button>Sign Up</Button>
             </nav>
         )
     }
