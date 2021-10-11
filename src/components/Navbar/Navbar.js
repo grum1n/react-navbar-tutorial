@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { MenuItems } from './MenuItems';
+import './Navbar.css';
 
-class Navbar extends React.Components {
+class Navbar extends React.Component {
     render(){
         return(
             <nav className="NavBarItems">
